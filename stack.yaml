@@ -1,0 +1,5 @@
+# https://docs.haskellstack.org/en/stable/configure/yaml/
+snapshot: lts-24.55
+packages:
+- .
+compiler-check: newer-minor
