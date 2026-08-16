@@ -1,0 +1,88 @@
+{"§" = {
+  "h" = {
+    "u" = {
+      "g" = ("insertText:", "🫂");
+    };
+  };
+  "p" = {
+    "n" = {
+      "t" = ("insertText:", "👉👈");
+    };
+    "l" = {
+      "s" = ("insertText:", "🥺");
+    };
+  };
+  "c" = {
+    "d" = {
+      "o" = {
+        "t" = ("insertText:", "⋅");
+      };
+    };
+    "h" = {
+      "k" = ("insertText:", "☑");
+    };
+  };
+  "x" = {
+    "x" = ("insertText:", "×");
+  };
+  "e" = {
+    "u" = ("insertText:", "€");
+  };
+  "S" = {
+    "S" = ("insertText:", "ẞ");
+  };
+  "s" = {
+    "s" = ("insertText:", "ß");
+  };
+  "U" = {
+    "e" = ("insertText:", "Ü");
+  };
+  "O" = {
+    "e" = ("insertText:", "Ö");
+  };
+  "A" = {
+    "e" = ("insertText:", "Ä");
+  };
+  "u" = {
+    "e" = ("insertText:", "ü");
+  };
+  "o" = {
+    "e" = ("insertText:", "ö");
+  };
+  "a" = {
+    "e" = ("insertText:", "ä");
+    "`" = ("insertText:", "ᴀ");
+  };
+  "d" = {
+    "g" = {
+      "c" = ("insertText:", "℃");
+    };
+    "e" = {
+      "g" = {
+        "c" = ("insertText:", "℃");
+        "C" = ("insertText:", "℃");
+      };
+    };
+  };
+  "b" = {
+    "`" = ("insertText:", "ʙ");
+  };
+  "[" = {
+    "x" = {
+      "]" = ("insertText:", "☒");
+    };
+    " " = {
+      "]" = ("insertText:", "☐");
+    };
+  };
+  "_" = {
+    "2" = ("insertText:", "₂");
+    "1" = ("insertText:", "₁");
+  };
+  "2" = {
+    "." = ("insertText:", "‥");
+  };
+  "." = {
+    "." = ("insertText:", "…");
+  };
+};}

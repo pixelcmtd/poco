@@ -1,0 +1,29 @@
+"..": "…" # HORIZONTAL ELLIPSIS
+"2.": "‥" # TWO DOT LEADER
+"_1": "₁"
+"_2": "₂"
+"[ ]": "☐"  # BALLOT BOX
+"chk": "☑"  # BALLOT BOX WITH CHECK
+"[x]": "☒"  # BALLOT BOX WITH X
+"a`": "ᴀ"  # LATIN LETTER SMALL CAPITAL A
+"b`": "ʙ"  # LATIN LETTER SMALL CAPITAL B
+"degC": "℃"  # DEGREE CELSIUS
+"degc": "℃"  # DEGREE CELSIUS
+"dgc": "℃"  # DEGREE CELSIUS
+
+# fast german
+"ae": "ä"
+"oe": "ö"
+"ue": "ü"
+"Ae": "Ä"
+"Oe": "Ö"
+"Ue": "Ü"
+"ss": "ß"
+"SS": "ẞ"
+
+"eu": "€"
+"xx": "×"
+"cdot": "⋅"
+"pls": "🥺"
+"pnt": "👉👈"
+"hug": "🫂"
