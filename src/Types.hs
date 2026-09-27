@@ -18,7 +18,9 @@ instance Y.FromJSON CompMap where
       (a, b) : _ -> fail ("Conflicting trigger sequences: " ++ show a ++ " is a prefix of " ++ show b)
       [] -> pure (CompMap ps)
     where
-      toPair (k, Y.String s) = pure (toText k, s)
+      toPair (k, Y.String s)
+        | T.null (toText k) = fail "trigger sequence must not be empty"
+        | otherwise = pure (toText k, s)
       toPair (k, invalid) =
         prependFailure
           ("replacement for trigger \"" <> T.unpack (toText k) <> "\" must be a string ")

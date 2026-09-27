@@ -1,6 +1,6 @@
 cabal-version: 2.2
 
--- This file has been generated from package.yaml by hpack version 0.39.1.
+-- This file has been generated from package.yaml by hpack version 0.39.6.
 --
 -- see: https://github.com/sol/hpack
 
@@ -75,8 +75,10 @@ test-suite poco-test
       test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      aeson ==2.2.*
+      QuickCheck ==2.15.*
+    , aeson ==2.2.*
     , base >=4.7 && <5
+    , bytestring
     , containers ==0.7.*
     , optparse-applicative ==0.18.*
     , poco
