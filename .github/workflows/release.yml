@@ -30,6 +30,7 @@ jobs:
         if: runner.os == 'macOS'
         env:
           MACOSX_DEPLOYMENT_TARGET: '15.0'
+          DEVELOPER_DIR: /Library/Developer/CommandLineTools
         run: stack build --test --copy-bins --local-bin-path dist
       - name: Build and test static Linux
         if: runner.os == 'Linux'
@@ -39,8 +40,9 @@ jobs:
           docker run --rm -v "$PWD:/work" -w /work \
             alpine:3.24 sh -ec '
               apk add --no-cache build-base ca-certificates ghc gmp-static stack zlib-dev zlib-static
+              echo "configure-options: {poco: [--enable-executable-static]}" >> stack.yaml
               stack --allow-different-user build --test --copy-bins --local-bin-path /work/dist \
-                --system-ghc --no-install-ghc --ghc-options="-optl=-static"
+                --system-ghc --no-install-ghc
             '
           file dist/poco-exe | grep 'statically linked'
       - name: Package binary
